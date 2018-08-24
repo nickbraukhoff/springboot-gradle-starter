@@ -1,0 +1,5 @@
+repositories {
+    repositories {
+        maven { url "https://nexus.foo.com/repository/maven-public" }
+    }
+}

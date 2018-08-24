@@ -1,0 +1,18 @@
+ext {
+    versions = [:]
+    libs = [:]
+}
+
+versions += [
+        groovy: "2.4.10",
+        junit : "4.11"
+
+]
+
+libs += [
+        groovy    : "org.codehaus.groovy:groovy-all:$versions.groovy",
+        junit     : "junit:junit:$versions.junit",
+        springBoot: [
+                "org.springframework.boot:spring-boot-starter-actuator"
+        ]
+]
